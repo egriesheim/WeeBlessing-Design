@@ -1,0 +1,352 @@
+/* CSS Document */
+
+    #list li {
+display: inline;
+margin: 10px;
+text-align: center;
+   }
+
+#list a {
+text-decoration: none;
+color: green;
+}
+
+#list {
+background-color: black;
+width:  300px;
+height: 25px;
+border-radius: 5px;
+}
+
+#list a:active {
+    color: blue;
+}
+
+.about {
+word-wrap: break-word;
+	font-size: 1.5em;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 2%;
+	color: #4CB4BD;
+}
+
+img {
+	padding: 0px;
+}
+
+.aboutcontent {
+	width: 100%;
+	align-content: center;
+}
+
+.testimonials {
+	width:80%;
+	margin-left: 10%;
+	margin-right: auto;
+	float: left;
+	
+}
+
+.faqheader {
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.5em;
+	color: #4CB4BD;
+	padding-top: 5%;
+}
+
+.faqcontent {
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.faqbullet {
+	color:#97C65A;
+}
+
+.backtolist {
+	text-align: center;
+}
+
+.headercontent{
+	width:100%;
+	
+}
+
+.toplogo {
+	float:left;
+}
+
+.homebanner {
+	width: 100%;
+	align-content:center;
+}
+
+.whoarewetitle {
+	font-family: 'Amatic SC', cursive;
+	font-size:150px;
+	color: #4CB4BD;
+	text-align: center;
+	padding: 3%;
+	display: inline-flex;
+	float:left;
+	margin: auto 5px;
+	width:40%;
+}
+
+.testimonialtitle {
+	font-size:800%;
+	float: left;
+	color:#4CB4BD;
+	height:70px;
+	padding-top:5%;
+	font-weight: 700;
+	letter-spacing: 9px;
+}
+.fullwidth {width:100%; text-align: center;}
+
+.center{width: 100%; align-content: center;}
+
+.whoarewelogo{float:left;width:50%;align-content: left;}
+
+.styleprofilebutton{display: inline;}
+
+.funfont {
+	font-family: 'Amatic SC', cursive;
+
+}
+
+.sansfont {
+	font-size: 1.1rem;
+	font-weight: 500;
+	
+}
+.fifty {
+	width: 50%;
+}
+
+.floater {
+	float: left;
+    height: 50%;
+    width: 100%;
+    margin-bottom: -50px;
+}
+.parallax { 
+    background-image: url( images/test.jpg);
+    min-height: 400px;
+	min-width:auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+	.background-image .parallax {
+		min-width: 100%;
+	}
+
+/* flexboxes */
+.box {
+display:inline-block;
+	width:100%;
+	height:100%;
+}
+
+
+.parallax div.a {
+	order:1;
+	flex: 0 1 auto;
+	align-self: auto;
+	min-width:0;
+	min-height:auto;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1000%;
+	color: #97C65A;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	flex-shrink: 0;
+}
+
+.box div.a {
+	float:left;
+	width:31%;
+	position:relative;
+	height: 100%;
+	margin: 0 10px 0 10px;
+
+}
+
+.box div.b {
+float:left;
+	width:31%;
+	font-family: 'Amatic SC', cursive;
+	position: relative;
+	font-size: 1.8em;
+	line-height: 1.2;
+	padding: 0% 0% 0% 0%;
+	height: 100%;
+	margin: 0 10px 0 10px;
+}
+
+.box div.c {
+	float:left;
+	width:31%;
+	position: relative;
+	height: 100%;
+	margin: 0 10px 0 10px;
+}
+
+div.a img {
+	padding-top: 13%;
+	
+}
+
+div.b h1 {
+	padding: 5%;
+}
+
+div.c img {
+	padding: 0%;
+	bottom: 0;
+	left:0;
+	position:absolute;
+	width: 100%;
+	align-content: left;
+	overflow: hidden;
+}
+
+.homecontainer {width:65%; margin:auto; height:360px;}
+
+.homeh2 div.h2 {
+	font-family: 'Amatic SC', cursive;
+}
+
+.whoarewe {
+	text-align: center;
+	font-size: 2em;
+	padding-bottom:5%
+}
+
+.formbgimage {background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(images/boybg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  margin: 0px 0 0 0px;
+  position: relative;
+  float: left;}
+
+.steptop { text-align: center; display:inline; color:white; font-size: 3em; line-height: 3; float:left;}
+
+.hrborder {float:left;}
+
+.formcontainer {
+	float:left;
+}
+.boyformtitle {color:#0568A7}
+.formtitle {text-align: center; font-size:6em; position:absolute; top:50%; left:50%; transform: translate(-50%, -500%); font-weight: 600;}
+
+.formwhitebg { width:1200px; height:500px; background-color: white; position:absolute; top:50%; left:50%; transform: translate(-50%, -50%)}
+
+.boyname {position:absolute; top:50%; left:50%; transform: translate(-50%, -50%);width: 50%;}
+
+.boyname input.boysage, input.boysmonth{
+	width: 25%
+}
+
+.centereverything{ }
+
+.boyname input.boysname { width:50%; }
+
+.centertext {text-align: center}
+
+.imagegrid {
+	padding-bottom: 5%;
+	width: 100%;
+	height: auto;
+}
+
+.green {
+	color:#97C65A;
+}
+
+.fiftyt{
+	width:45%;
+	float:left;
+	padding:2.5%;
+	line-height: 25px;
+	font-weight: 700;
+}
+
+.rotateimage {
+	-ms-transform: rotate(-22deg); /* IE 9 */
+    -webkit-transform: rotate(-22deg); /* Chrome, Safari, Opera */
+    transform: rotate(-22deg);
+}
+
+			html, #page { padding:0; margin:0;}
+			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
+			h1, h3, h4, h5, h6 {color:#4CB4BD;}
+			h2 {color:white;}
+			#page { background:#fff;}
+			#header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
+						
+			/* Logo */
+			#logo { padding:0; width:auto; float:left;}
+			#logo h1 a, h1 a:hover { color:darkred; text-decoration:none;}
+			#logo h1 span { color:#4CB4BD;}
+
+			/* Header */
+			#header { background:#fff; }
+			#header-inner { margin:0 auto; padding:0; width:75%;}
+			
+			/* Feature */
+			.feature { background:red;padding:18px;}
+			.feature-inner { margin:auto;width:970px; }
+			.feature-inner h1 {color:#4CB4BD;font-size:32px;}
+			
+			/* Menu */
+			#top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right; padding-top: 2%; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif"; }
+			#top-nav ul { list-style:none; padding:0; height:37px; float:left;}
+			#top-nav ul li { margin:0; padding:0 0 0 20px; float:left;}
+			#top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.2rem;}
+			#top-nav ul li.active a, #top-nav ul li a:hover { color:#4CB4BD;}
+			
+			/* Content */
+			#content-inner { margin:0 auto; padding:10px 0; width:970px;background:#fff;}
+			#content #contentbar { margin:0; padding:0; float:right; width:760px;}
+			#content #contentbar .article { margin:0 0 24px; padding:0 20px 0 15px; }
+			#content #sidebar { padding:0; float:left; width:200px;}
+			#content #sidebar .widget { margin:0 0 12px; padding:8px 8px 8px 13px;line-height:1.4em;}
+			#content #sidebar .widget h3 a { text-decoration:none;}
+			#content #sidebar .widget ul { margin:0; padding:0; list-style:none; color:#959595;}
+			#content #sidebar .widget ul li { margin:0;}
+			#content #sidebar .widget ul li { padding:4px 0; width:185px;}
+			#content #sidebar .widget ul li a { color:red; text-decoration:none; margin-left:-16px; padding:4px 8px 4px 16px;}
+			#content #sidebar .widget ul li a:hover { color:#f8dbdb; font-weight:bold; text-decoration:none;}
+			
+			/* Footerblurb */
+			#footerblurb { background:#f8dbdb;color:red;}
+			#footerblurb-inner { margin:0 auto; width:922px; padding:24px;}
+			#footerblurb .column { margin:0; text-align:justify; float:left;width:250px;padding:0 24px;}
+			
+			/* Footer */
+			#footer { background:#fff;}
+			#footer-inner { margin:auto; text-align:center; padding-top:60px; width:922px;}
+			#footer a {color:red;text-decoration:none;}
+			
+			/* Clear both sides to assist with div alignment  */
+			.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+
+.testimonialsp {
+}
+
