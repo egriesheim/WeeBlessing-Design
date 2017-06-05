@@ -298,7 +298,7 @@ div.c img {
 			h1, h3, h4, h5, h6 {color:#4CB4BD;}
 			h2 {color:white;}
 			#page { background:#fff;}
-			#header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
+			#header, #footer, .top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
 						
 			/* Logo */
 			#logo { padding:0; width:auto; float:left;}
@@ -315,11 +315,11 @@ div.c img {
 			.feature-inner h1 {color:#4CB4BD;font-size:32px;}
 			
 			/* Menu */
-			#top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right; padding-top: 2%; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif"; }
-			#top-nav ul { list-style:none; padding:0; height:37px; float:left;}
-			#top-nav ul li { margin:0; padding:0 0 0 20px; float:left;}
-			#top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.2rem;}
-			#top-nav ul li.active a, #top-nav ul li a:hover { color:#4CB4BD;}
+			.top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right; padding-top: 2%; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif"; }
+			.top-nav ul { list-style:none; padding:0; height:37px; float:left;}
+			.top-nav ul li { margin:0; padding:0 0 0 20px; float:left;}
+			.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.2rem;}
+			.top-nav ul li.active a, .top-nav ul li a:hover { color:#4CB4BD;}
 			
 			/* Content */
 			#content-inner { margin:0 auto; padding:10px 0; width:970px;background:#fff;}

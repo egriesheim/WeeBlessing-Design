@@ -69,12 +69,14 @@ img {
 }
 
 .headercontent{
-	width:100%;
-	
+	width:75%;
+	padding-left:10%;
+	padding-right:auto;
 }
 
 .toplogo {
 	float:left;
+	padding:1% 0% 0% 15%
 }
 
 .homebanner {
@@ -109,7 +111,7 @@ img {
 
 .whoarewelogo{float:left;width:50%;align-content: left;}
 
-.styleprofilebutton{display: inline;}
+.styleprofilebutton{display: inline; padding-top:1%;}
 
 .funfont {
 	font-family: 'Amatic SC', cursive;
@@ -252,10 +254,10 @@ div.c img {
 .formcontainer {
 	float:left;
 }
-.boyformtitle {color:#0568A7}
+.boyformtitle {color:rgba(151, 198, 90, 1);}
 .formtitle {text-align: center; font-size:6em; position:absolute; top:50%; left:50%; transform: translate(-50%, -500%); font-weight: 600;}
 
-.formwhitebg { width:1200px; height:500px; background-color: white; position:absolute; top:50%; left:50%; transform: translate(-50%, -50%)}
+.formwhitebg {  border-radius: 25px; width:1200px; height:500px; background-color: white; position:absolute; top:50%; left:50%; transform: translate(-50%, -50%)}
 
 .boyname {position:absolute; top:50%; left:50%; transform: translate(-50%, -50%);width: 50%;}
 
@@ -293,12 +295,29 @@ div.c img {
     transform: rotate(-22deg);
 }
 
+.boycircle { border-radius: 100px; background-color:grey; height: 150px; position:absolute; top:25%; left:65%; transform: translate(-50%, -50%);width: 25%;
+-webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+	cursor: pointer;}
+.girlcircle { border-radius: 100px; background-color:grey;  height: 150px; position:absolute; top:25%; left:35%; transform: translate(-50%, -50%);width: 25%; -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+	cursor: pointer;
+}
+.girlcircle:hover {background-color:rgba(247, 171, 222, 1); transition: .5s ease;}
+.boycircle:hover {background-color:  #4CB4BD; transition: .5s ease;}
+
+.toppad{float:right; padding-top:3%; padding-right:0%}
+
 			html, #page { padding:0; margin:0;}
 			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
 			h1, h3, h4, h5, h6 {color:#4CB4BD;}
 			h2 {color:white;}
 			#page { background:#fff;}
-			#header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
+			#header, #footer, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
 						
 			/* Logo */
 			#logo { padding:0; width:auto; float:left;}
@@ -307,19 +326,19 @@ div.c img {
 
 			/* Header */
 			#header { background:#fff; }
-			#header-inner { margin:0 auto; padding:0; width:75%;}
+			.header-inner { margin:0 auto; padding:0; width:95%;}
 			
 			/* Feature */
 			.feature { background:red;padding:18px;}
 			.feature-inner { margin:auto;width:970px; }
-			.feature-inner h1 {color:#4CB4BD;font-size:32px;}
+			.feature-inner h1 {color:top-nav#4CB4BD;font-size:32px;}
 			
 			/* Menu */
-			#top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right; padding-top: 2%; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif"; }
-			#top-nav ul { list-style:none; padding:0; height:37px; float:left;}
-			#top-nav ul li { margin:0; padding:0 0 0 20px; float:left;}
-			#top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.2rem;}
-			#top-nav ul li.active a, #top-nav ul li a:hover { color:#4CB4BD;}
+			.top-nav { margin:0 auto; padding:0px 15% 2% 0; height:10px; float:right; font-size:1.1em; font-weight: 300;}
+			.top-nav ul { list-style:none; padding:0; height:10px; float:right;}
+			.top-nav ul li { margin:0; padding:0 0px 0px 0px; float:left;}
+			.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;}
+			.top-nav ul li.active a, .top-nav ul li a:hover { color:#4CB4BD;}
 			
 			/* Content */
 			#content-inner { margin:0 auto; padding:10px 0; width:970px;background:#fff;}
@@ -350,3 +369,88 @@ div.c img {
 .testimonialsp {
 }
 
+/*media queries*/
+
+@media screen and (max-width: 1330px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+	
+}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:#382E2F; text-decoration:none;font-size:1.5em;}
+
+
+	div.c img {
+	padding: 0%;
+	bottom: 0;
+	left:0;
+	position:absolute;
+	width: 100%;
+	align-content: left;
+	overflow: hidden;
+}
+	.homecontainer{
+		width:100%;
+	}
+	
+
+@media screen and (max-width: 1100px) {
+
+	.header-inner { margin:0 auto; padding:0; width:95%;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.4em;}
+	.homecontainer{
+		width:90%;
+	}
+	.toplogo { padding:0;}
+}
+
+@media screen and (max-width: 1020px) {
+
+	.header-inner { margin:0 auto; padding:0; width:95%;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.4em;}
+	.homecontainer{
+		width:90%;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 25px; color:#382E2F; text-decoration:none;font-size:1.4em;}
+	.homecontainer{
+		width:100%;
+	}
+	
+.header-inner {
+    margin: 0;
+    padding: 0;
+	width: 100%;
+}
+	.box div.a, div.b, div.c { width:29%} 
+	
+	.toppad { padding:20px 10px 0 0;}
+.headercontent{ width:90%}
+	
+	h1 {font-size:1.9em}
+}
+
+
+@media screen and (max-width: 800px) {
+
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:#382E2F; text-decoration:none;font-size:1.3em;}
+	.homecontainer{
+		width:100%;
+	}
+.header-inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+	.toplogo {width:100%}
+	.toplogo img{ padding: 5% 0% 0% 30%}
+	
+	h1 {font-size:1.6em}
+	h2 {font-size:1em}
+}
