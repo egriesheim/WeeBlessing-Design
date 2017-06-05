@@ -86,14 +86,11 @@ img {
 
 .whoarewetitle {
 	font-family: 'Amatic SC', cursive;
-	font-size:150px;
 	color: #4CB4BD;
 	text-align: center;
-	padding: 3%;
-	display: inline-flex;
-	float:left;
 	margin: auto 5px;
 	width:40%;
+	font-size: 10em; padding-right:2%; color: #4CB4BD; font-weight: 700; letter-spacing: 13px;
 }
 
 .testimonialtitle {
@@ -222,7 +219,7 @@ div.c img {
 	overflow: hidden;
 }
 
-.homecontainer {width:65%; margin:auto; height:360px;}
+.homecontainer {width:70%; margin:auto; height:360px;}
 
 .homeh2 div.h2 {
 	font-family: 'Amatic SC', cursive;
@@ -379,7 +376,7 @@ div.c img {
 
 	
 }
-	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:#382E2F; text-decoration:none;font-size:1.5em;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;font-size:1.4em;}
 
 
 	div.c img {
@@ -392,7 +389,7 @@ div.c img {
 	overflow: hidden;
 }
 	.homecontainer{
-		width:100%;
+width:85%
 	}
 	
 
@@ -401,9 +398,11 @@ div.c img {
 	.header-inner { margin:0 auto; padding:0; width:95%;}
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.4em;}
 	.homecontainer{
-		width:90%;
+
 	}
 	.toplogo { padding:0;}
+	
+		.whoarewetitle {font-size:9em;}
 }
 
 @media screen and (max-width: 1020px) {
@@ -411,8 +410,10 @@ div.c img {
 	.header-inner { margin:0 auto; padding:0; width:95%;}
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.4em;}
 	.homecontainer{
-		width:90%;
+	width:95%;
 	}
+	
+	.whoarewetitle {font-size:8.5em;}
 
 }
 
@@ -420,7 +421,6 @@ div.c img {
 
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 25px; color:#382E2F; text-decoration:none;font-size:1.4em;}
 	.homecontainer{
-		width:100%;
 	}
 	
 .header-inner {
@@ -448,6 +448,9 @@ div.c img {
     padding: 0;
     width: 100%;
 }
+	
+	.whoarewetitle {font-size:8.5em;}
+	
 	.toplogo {width:100%}
 	.toplogo img{ padding: 5% 0% 0% 30%}
 	
