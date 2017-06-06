@@ -1,5 +1,13 @@
 /* CSS Document */
 
+.getstarted {float: left; font-size:5em; width:100%; line-height: 60px}
+
+.h2header {font-size:2.5em}
+.mobilelogo {display:none;}
+
+.homebackground {height:380px}
+
+.burger-check {display:none;}
     #list li {
 display: inline;
 margin: 10px;
@@ -90,7 +98,7 @@ img {
 	text-align: center;
 	margin: auto 5px;
 	width:40%;
-	font-size: 10em; padding-right:2%; color: #4CB4BD; font-weight: 700; letter-spacing: 13px;
+	font-size: 10em; padding-right:2%; font-weight: 700; letter-spacing: 13px;
 }
 
 .testimonialtitle {
@@ -115,9 +123,10 @@ img {
 
 }
 
-.sansfont {
-	font-size: 1.1rem;
+.whoarewe div.sansfont {
+	font-size: 1.2em;
 	font-weight: 500;
+	line-height: 35px;
 	
 }
 .fifty {
@@ -262,8 +271,6 @@ div.c img {
 	width: 25%
 }
 
-.centereverything{ }
-
 .boyname input.boysname { width:50%; }
 
 .centertext {text-align: center}
@@ -309,6 +316,10 @@ div.c img {
 
 .toppad{float:right; padding-top:3%; padding-right:0%}
 
+.wawtext {width:70%}
+	.wawangel {width:30%}
+
+
 			html, #page { padding:0; margin:0;}
 			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
 			h1, h3, h4, h5, h6 {color:#4CB4BD;}
@@ -338,7 +349,7 @@ div.c img {
 			.top-nav ul li.active a, .top-nav ul li a:hover { color:#4CB4BD;}
 			
 			/* Content */
-			#content-inner { margin:0 auto; padding:10px 0; width:970px;background:#fff;}
+			#content-inner { margin:0 auto; padding:10px 0; width:100%;background:#fff;}
 			#content #contentbar { margin:0; padding:0; float:right; width:760px;}
 			#content #contentbar .article { margin:0 0 24px; padding:0 20px 0 15px; }
 			#content #sidebar { padding:0; float:left; width:200px;}
@@ -357,7 +368,7 @@ div.c img {
 			
 			/* Footer */
 			#footer { background:#fff;}
-			#footer-inner { margin:auto; text-align:center; padding-top:60px; width:922px;}
+			#footer-inner { margin:auto; text-align:center; padding-top:60px; width:100%;}
 			#footer a {color:red;text-decoration:none;}
 			
 			/* Clear both sides to assist with div alignment  */
@@ -389,8 +400,10 @@ div.c img {
 	overflow: hidden;
 }
 	.homecontainer{
-width:85%
+width:80%
 	}
+.packagegirl {max-width:300px; height:auto;
+}
 	
 
 @media screen and (max-width: 1100px) {
@@ -433,12 +446,16 @@ width:85%
 	.toppad { padding:20px 10px 0 0;}
 .headercontent{ width:90%}
 	
-	h1 {font-size:1.9em}
+	h1 {font-size:1.8em}
+	
 }
 
 
 @media screen and (max-width: 800px) {
+	.mobilelogo {display: block}
 
+	.social {display:none;}
+	
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:#382E2F; text-decoration:none;font-size:1.3em;}
 	.homecontainer{
 		width:100%;
@@ -446,14 +463,180 @@ width:85%
 .header-inner {
     margin: 0 auto;
     padding: 0;
-    width: 100%;
-}
-	
+	}
+	.headercontent {width:100%;}
+	.toppad {float:left; padding-top:200px; padding-left:28%; padding-right:auto;}
+
 	.whoarewetitle {font-size:8.5em;}
-	
-	.toplogo {width:100%}
-	.toplogo img{ padding: 5% 0% 0% 30%}
 	
 	h1 {font-size:1.6em}
 	h2 {font-size:1em}
+	
+	.whoarewetitle {font-size:7.5em;}
+	
+	.sansfont { font-size:1em;}
+	.wawtext {width:73%}
+	.wawangel {width:20%}
+	.wawangel img{height:100px; width:auto;}
+	
+	.toplogo {display:none;}
+	/*burger menu */
+	.burger {
+		position: absolute;
+		z-index: 9999;
+  display: inline-block;
+  border: 0;
+  background: none;
+  outline: 0;
+  margin: 200px 5% 5% 48%;
+  cursor: pointer;
+  border-bottom: 4px solid currentColor;
+  width:30px;
+  transition: border-bottom 1s ease-in-out;
+  -webkit-transition: border-bottom 1s ease-in-out;
+		background-color:white;
 }
+.burger::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.burger:before {
+  content: "";
+  display: block;
+  border-bottom: 4px solid currentColor;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger:after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid currentColor;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.burger-check {
+  display: none;
+}
+
+.burger-check:checked ~ .burger {
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.8s ease-in-out;
+  -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+.burger-check:checked ~ .burger:before {
+  -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+	transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger-check:checked ~ .burger:after {
+  -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+	 transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+.navigation {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index: 9998;
+	width:100%;
+	height:200px;
+  overflow:hidden;
+  max-height: 0;
+  -webkit-transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
+	background-color:white;
+}
+
+.burger-check:checked ~ .navigation {
+  max-height: 500px;
+  -webkit-transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
+}
+	
+	/* Menu */
+			.top-nav { margin:0 auto; padding:0px 0% 0% 0; height:10px; float:center; font-size:1.5em; font-weight: 300; width:100%;}
+			.top-nav ul { list-style:none; padding:0; height:10px; float:center; width:100%;}
+			.top-nav ul li { margin:0; padding:10px 0px 0px 0px; float:left; width:100%; text-align: center;}
+			.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 0px; color:grey; text-decoration:none; width:100%;}
+			.top-nav ul li.active a, .top-nav ul li a:hover { color:#4CB4BD;}
+	
+
+	/* end burgers :( */
+
+	.topstylebutton { padding: 15% 5% 5% 22%;}
+	.styleprofilebutton { padding: 0% 0% 0% 0%;}
+	.header-inner { height:230px}
+	.weelogomobile { position: absolute;
+        top: 130px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+	.toppad {float:left; padding-top:10px; padding-left:23%; padding-right:auto;}
+}
+
+@media screen and (max-width: 450px) {
+	
+	.social {display:none;}
+	.headercontent {width:100%;}
+	.toppad {float:left; padding-top:10px; padding-left:10%; padding-right:auto;}
+	.weelogomobile { position: absolute;
+        top: 130px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+	.burger { position: absolute;
+        top: 10px;
+        left: 5%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+	.wawtext {float:left; width:100%; height:25px;}
+	.wawangel {display:none;}
+	.parallax div.a {font-size: 600%}
+	.homecontainer {width:100%;}
+	div.a img { max-height:200px}
+	.box div.a {width:28%; height:50%;}
+	.box div.b {width:28%; height:60%}
+	.box div.c {width:28%; height:100%}
+	h1 {font-size:.8em;}
+	div.b .sansfont {font-size: .6em;}
+	
+	.column {flex-flow: column;}
+	.box {flex-flow: column;
+	}
+	
+	.getstarted { font-size: 1em;
+}
+	.homebackground {height:230px}
+	
+	.homebaby { max-height: 200px;}
+	
+	.box div.b { font-size: 1.7em;}
+	.fullwidth h2 {font-size:1em;}
+	.packagegirl2 {display:none;}
+
+	.h2header { font-size:2.5em;}
+.laptopimg { height: auto; width:100px;
+}
+	.createstylebutton { width:200px;}
+	
+	.getstarted {float: left; font-size:5em; width:100%; line-height: 60px}
+
+}
+
+
