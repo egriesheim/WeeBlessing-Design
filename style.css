@@ -2,6 +2,9 @@
 
 .getstarted {float: left; font-size:5em; width:100%; line-height: 60px}
 
+.jumpingkids {width: 100%; height:auto; padding-right:10%; padding-left:auto;
+}
+
 .h2header {font-size:2.5em}
 .mobilelogo {display:none;}
 
@@ -33,20 +36,18 @@ border-radius: 5px;
 .about {
 word-wrap: break-word;
 	font-size: 1.5em;
-	padding-left: 20%;
-	padding-right: 20%;
-	padding-top: 2%;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 0%;
 	color: #4CB4BD;
 }
+.about img { padding:20px;}
+.about {padding: 0% 20%;}
 
 img {
 	padding: 0px;
 }
 
-.aboutcontent {
-	width: 100%;
-	align-content: center;
-}
 
 .testimonials {
 	width:80%;
@@ -77,8 +78,8 @@ img {
 }
 
 .headercontent{
-	width:75%;
-	padding-left:10%;
+	width:85%;
+	padding-left:0%;
 	padding-right:auto;
 }
 
@@ -173,7 +174,7 @@ display:inline-block;
 	min-width:0;
 	min-height:auto;
 	font-family: 'Amatic SC', cursive;
-	font-size: 1000%;
+	font-size: 11em;
 	color: #97C65A;
 	font-weight: bold;
 	letter-spacing: 0.1em;
@@ -334,7 +335,7 @@ div.c img {
 
 			/* Header */
 			#header { background:#fff; }
-			.header-inner { margin:0 auto; padding:0; width:95%;}
+			.header-inner { margin:0 auto; padding:0; width:100%;}
 			
 			/* Feature */
 			.feature { background:red;padding:18px;}
@@ -386,7 +387,9 @@ div.c img {
 @media screen and (max-width: 1200px) {
 
 	
+.whoweare img { width:55%; height:auto;
 }
+
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;font-size:1.4em;}
 
 
@@ -405,8 +408,12 @@ width:80%
 .packagegirl {max-width:300px; height:auto;
 }
 	
+		.sigangel {display: none;}
+}
 
 @media screen and (max-width: 1100px) {
+	
+
 
 	.header-inner { margin:0 auto; padding:0; width:95%;}
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.4em;}
@@ -432,6 +439,9 @@ width:80%
 
 @media screen and (max-width: 900px) {
 
+	
+	.faqcontent {padding-left:5%;padding-right:5%;}
+
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 25px; color:#382E2F; text-decoration:none;font-size:1.4em;}
 	.homecontainer{
 	}
@@ -448,10 +458,15 @@ width:80%
 	
 	h1 {font-size:1.8em}
 	
+	.testimonialtitle {font-size: 6em;}
+	
 }
 
 
 @media screen and (max-width: 800px) {
+
+	.fiftyt { width:100%}
+	
 	.mobilelogo {display: block}
 
 	.social {display:none;}
@@ -464,10 +479,11 @@ width:80%
     margin: 0 auto;
     padding: 0;
 	}
+	.testimonialtitle {font-size: 6em; line-height: 70px; padding-bottom:50px;}
 	.headercontent {width:100%;}
 	.toppad {float:left; padding-top:200px; padding-left:28%; padding-right:auto;}
 
-	.whoarewetitle {font-size:8.5em;}
+	.whoarewetitle {font-size:4em;}
 	
 	h1 {font-size:1.6em}
 	h2 {font-size:1em}
@@ -587,14 +603,16 @@ width:80%
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
-	.toppad {float:left; padding-top:10px; padding-left:23%; padding-right:auto;}
+	.toppad {float:left; padding-top:10px; padding-left:33%; padding-right:auto;}
+	.parallax div.a {font-size: 700%}
 }
 
 @media screen and (max-width: 450px) {
 	
+	.about img{width:100%; height:auto;}
 	.social {display:none;}
 	.headercontent {width:100%;}
-	.toppad {float:left; padding-top:10px; padding-left:10%; padding-right:auto;}
+	.toppad {float:left; padding-top:10px; padding-left:17%; padding-right:auto;}
 	.weelogomobile { position: absolute;
         top: 130px;
         left: 50%;
@@ -607,7 +625,7 @@ width:80%
         transform: translate(-50%, -50%) }
 	.wawtext {float:left; width:100%; height:25px;}
 	.wawangel {display:none;}
-	.parallax div.a {font-size: 600%}
+	.parallax div.a {font-size: 1em;}
 	.homecontainer {width:100%;}
 	div.a img { max-height:200px}
 	.box div.a {width:28%; height:50%;}
@@ -637,6 +655,16 @@ width:80%
 	
 	.getstarted {float: left; font-size:5em; width:100%; line-height: 60px}
 
+	
+.testimonialsimage {
+max-width:300px;
 }
-
+	.rotateimage {
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+		min-width:300px;
+}
+	
+}
 
