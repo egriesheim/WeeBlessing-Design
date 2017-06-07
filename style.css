@@ -1,11 +1,64 @@
 /* CSS Document */
 
+/* Table imagegrid */
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: none;
+	display: table-cell;
+	padding: 3px 10px;
+	text-align: center;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+
+.referral { width:60%;}
+.videowrapper {    float: none;
+        clear: both;
+        width: 100%;
+        position: relative;
+        padding-top: 5px;
+        margin: 0 auto;
+	height:100%;
+
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 100%;
+}
+
 .getstarted {float: left; font-size:5em; width:100%; line-height: 60px}
 
 .jumpingkids {width: 100%; height:auto; padding-right:10%; padding-left:auto;
 }
 
-.h2header {font-size:2.5em}
+.h2header {font-size:7em}
 .mobilelogo {display:none;}
 
 .homebackground {height:380px}
@@ -41,7 +94,7 @@ word-wrap: break-word;
 	padding-top: 0%;
 	color: #4CB4BD;
 }
-.about img { padding:20px;}
+.about img { padding:10px;}
 .about {padding: 0% 20%;}
 
 img {
@@ -98,12 +151,12 @@ img {
 	color: #4CB4BD;
 	text-align: center;
 	margin: auto 5px;
-	width:40%;
-	font-size: 10em; padding-right:2%; font-weight: 700; letter-spacing: 13px;
+	width:50%;
+	font-size: 10em; font-weight: 700; letter-spacing: 13px;
 }
 
 .testimonialtitle {
-	font-size:800%;
+	font-size:700%;
 	float: left;
 	color:#4CB4BD;
 	height:70px;
@@ -187,6 +240,7 @@ display:inline-block;
 	position:relative;
 	height: 100%;
 	margin: 0 10px 0 10px;
+	
 
 }
 
@@ -195,7 +249,7 @@ float:left;
 	width:31%;
 	font-family: 'Amatic SC', cursive;
 	position: relative;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	line-height: 1.2;
 	padding: 0% 0% 0% 0%;
 	height: 100%;
@@ -280,6 +334,8 @@ div.c img {
 	padding-bottom: 5%;
 	width: 100%;
 	height: auto;
+	overflow: hidden;
+	float:left;
 }
 
 .green {
@@ -295,9 +351,11 @@ div.c img {
 }
 
 .rotateimage {
+	width:40%;
 	-ms-transform: rotate(-22deg); /* IE 9 */
     -webkit-transform: rotate(-22deg); /* Chrome, Safari, Opera */
     transform: rotate(-22deg);
+	
 }
 
 .boycircle { border-radius: 100px; background-color:grey; height: 150px; position:absolute; top:25%; left:65%; transform: translate(-50%, -50%);width: 25%;
@@ -317,7 +375,7 @@ div.c img {
 
 .toppad{float:right; padding-top:3%; padding-right:0%}
 
-.wawtext {width:70%}
+.wawtext {width:65%}
 	.wawangel {width:30%}
 
 
@@ -343,7 +401,7 @@ div.c img {
 			.feature-inner h1 {color:top-nav#4CB4BD;font-size:32px;}
 			
 			/* Menu */
-			.top-nav { margin:0 auto; padding:0px 15% 2% 0; height:10px; float:right; font-size:1.1em; font-weight: 300;}
+			.top-nav { margin:0 auto; padding:0px 15% 2% 0; height:10px; float:right; font-size:1.4em; font-weight: 300;}
 			.top-nav ul { list-style:none; padding:0; height:10px; float:right;}
 			.top-nav ul li { margin:0; padding:0 0px 0px 0px; float:left;}
 			.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;}
@@ -362,22 +420,34 @@ div.c img {
 			#content #sidebar .widget ul li a { color:red; text-decoration:none; margin-left:-16px; padding:4px 8px 4px 16px;}
 			#content #sidebar .widget ul li a:hover { color:#f8dbdb; font-weight:bold; text-decoration:none;}
 			
-			/* Footerblurb */
-			#footerblurb { background:#f8dbdb;color:red;}
-			#footerblurb-inner { margin:0 auto; width:922px; padding:24px;}
-			#footerblurb .column { margin:0; text-align:justify; float:left;width:250px;padding:0 24px;}
-			
-			/* Footer */
-			#footer { background:#fff;}
-			#footer-inner { margin:auto; text-align:center; padding-top:60px; width:100%;}
-			#footer a {color:red;text-decoration:none;}
 			
 			/* Clear both sides to assist with div alignment  */
 			.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 
-.testimonialsp {
+.footerb { float:left; text-align: center; vertical-align: center; clear:both; width:100%;
+}
+.footera { position: relative;
+    float: left;
+    min-height: 22px;
+    line-height: 22px;
+    font-family: Arial, Verdana;
+    font-size: 12px;
+    text-align: center;
+	width:100%;
+}
+.footerc {text-align: center; color:white;float:left; width:100%;
+}
+.footera img {
+    height: 40px;
+    width: 40px;}
+.footerbox { width:100%; display:inline-flex;}
+.footercontainer {height:200px; width:100%;}
+.footer {padding-top:10%}
+.hiw {
 }
 
+
+.testimonialright{width:50%; float:right; padding: 5% 5% 0% 0%}
 /*media queries*/
 
 @media screen and (max-width: 1330px) {
@@ -438,11 +508,11 @@ width:80%
 }
 
 @media screen and (max-width: 900px) {
-
+	
 	
 	.faqcontent {padding-left:5%;padding-right:5%;}
 
-	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 25px; color:#382E2F; text-decoration:none;font-size:1.4em;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 25px; color:#382E2F; text-decoration:none;font-size:1.1em;}
 	.homecontainer{
 	}
 	
@@ -465,6 +535,8 @@ width:80%
 
 @media screen and (max-width: 800px) {
 
+	div.divTableCell img {width:90%}
+	
 	.fiftyt { width:100%}
 	
 	.mobilelogo {display: block}
@@ -488,7 +560,7 @@ width:80%
 	h1 {font-size:1.6em}
 	h2 {font-size:1em}
 	
-	.whoarewetitle {font-size:7.5em;}
+	.whoarewetitle {font-size:6.0em;}
 	
 	.sansfont { font-size:1em;}
 	.wawtext {width:73%}
@@ -609,6 +681,8 @@ width:80%
 
 @media screen and (max-width: 450px) {
 	
+	.footer {padding-top:100%}
+	
 	.about img{width:100%; height:auto;}
 	.social {display:none;}
 	.headercontent {width:100%;}
@@ -625,10 +699,10 @@ width:80%
         transform: translate(-50%, -50%) }
 	.wawtext {float:left; width:100%; height:25px;}
 	.wawangel {display:none;}
-	.parallax div.a {font-size: 1em;}
+	.parallax div.a {font-size: 5em;}
 	.homecontainer {width:100%;}
 	div.a img { max-height:200px}
-	.box div.a {width:28%; height:50%;}
+	.box div.a {width:28%; height:100%;}
 	.box div.b {width:28%; height:60%}
 	.box div.c {width:28%; height:100%}
 	h1 {font-size:.8em;}
@@ -663,8 +737,47 @@ max-width:300px;
 	-ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
-		min-width:300px;
+		width:100%;
 }
 	
+	.footerb { width:100%; text-align: center;
+}
+.footera { position: relative;
+	
+    font-family: Arial, Verdana;
+    font-size: 12px;
+    text-align: center;
+  
+    margin-right: 2px;
+	width:100%;
+
+}
+.footerc {text-align: center; color:white; width:100%;  min-height: 50px;
+}
+.footera img {
+    height: 40px;
+    width: 40px;}
+.footerbox { width:100%; display:block;}
+.footercontainer {height:100px; width:100%;}
+.footer {padding-top:10%}
+	.number {width:90%}
 }
 
+
+@media (max-width: 680px){
+	
+	.about {padding: 0% 15%;}
+	.packagegirl2 {display:none;
+}
+	.referral {width:100%;} 
+	h2.h2header{line-height: 70px; font-size: 6em}
+	span.whoarewetitle {font-size: 5em; padding-right:15%; padding-left:auto; letter-spacing: 10px;}
+}
+
+
+.c2 {text-align: center;
+}
+.b2 {text-align: center;
+}
+.testimonialsp { font-size: 1.5em
+}
