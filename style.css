@@ -1,6 +1,15 @@
 /* CSS Document */
 
+.contactwrapper { width: 70%; margin: 0 auto;}
+.contactbox { display:inline-flex;}
+.contactfont { font-size: 2em;}
+.sendblessingfont {font-size: 1.8em; font-weight: 600; text-align: center;}
+.belessingimage {float:left;}
+.floatleft {float:left;}
+.floatright {float:right}
+
 /* Table imagegrid */
+.lefttext {text-align: left;}
 
 .divTable{
 	display: table;
@@ -460,7 +469,7 @@ div.c img {
 .whoweare img { width:55%; height:auto;
 }
 
-	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;font-size:1.4em;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;font-size:1.1em;}
 
 
 	div.c img {
@@ -486,7 +495,7 @@ width:80%
 
 
 	.header-inner { margin:0 auto; padding:0; width:95%;}
-	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.4em;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.1em;}
 	.homecontainer{
 
 	}
@@ -498,7 +507,7 @@ width:80%
 @media screen and (max-width: 1020px) {
 
 	.header-inner { margin:0 auto; padding:0; width:95%;}
-	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.4em;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.1em;}
 	.homecontainer{
 	width:95%;
 	}
@@ -535,6 +544,8 @@ width:80%
 
 @media screen and (max-width: 800px) {
 
+	.sendblessingfont {font-size: 1.8em !important; font-weight: 600; text-align: center;}
+	
 	div.divTableCell img {width:90%}
 	
 	.fiftyt { width:100%}
@@ -682,7 +693,7 @@ width:80%
 @media screen and (max-width: 450px) {
 	
 	.footer {padding-top:100%}
-	
+
 	.about img{width:100%; height:auto;}
 	.social {display:none;}
 	.headercontent {width:100%;}
@@ -761,11 +772,17 @@ max-width:300px;
 .footercontainer {height:100px; width:100%;}
 .footer {padding-top:10%}
 	.number {width:90%}
+	.sendblessingfont {font-size: 1.3em !important; font-weight: 600; text-align: center;}
+.belessingimage {width:60%}
 }
-
 
 @media (max-width: 680px){
 	
+	
+.contactwrapper { width: 90%; margin: 0 auto;}
+	
+.contactbox { display:inline-block;}
+	.contactfont { font-size: 1.4em; text-align: center;}
 	.about {padding: 0% 15%;}
 	.packagegirl2 {display:none;
 }
@@ -780,4 +797,10 @@ max-width:300px;
 .b2 {text-align: center;
 }
 .testimonialsp { font-size: 1.5em
+}
+.lefttext {
+}
+.floatleft {
+}
+.floatright {
 }
