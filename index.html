@@ -56,9 +56,87 @@
 					<div class="clr"></div>
 			  </div>
 			</header>
-    <div class="homebanner">
-		    <img src="images/banner.jpg" style="width:100%" />
-		</div>
+   <!--  start slider code --> 
+	<title>Nivo jQuery Slider</title>
+
+    
+
+    <!--  Load the stylesheets  -->
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+
+<body>
+
+    <div id="wrapper">
+
+    
+
+        <!-- The slider wrapper div  -->
+
+        <div class="slider-wrapper theme-default">
+
+            <div id="slider" class="nivoSlider">
+
+                <!--  Images to slide through.  -->
+
+                <img src="images/1.jpg" data-thumb="images/header.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/2.jpg" data-thumb="images/header.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/4.jpg" data-thumb="images/header.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/5.jpg" data-thumb="images/header.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/6.jpg" data-thumb="images/header.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/7.jpg" data-thumb="images/header.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/8.jpg" data-thumb="images/header.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/9.jpg" data-thumb="images/header.jpg" alt="" data-transition="slideInLeft" />
+
+            </div>
+
+            
+
+            <!--  Captions to show for images  -->
+
+            <div id="htmlcaption" class="nivo-html-caption">
+
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    
+
+    <!--  Load the javascript files  -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+
+    <script type="text/javascript">
+
+    
+
+    //<!--  Load the slider  --> 
+
+    $(window).load(function() {
+
+        $('#slider').nivoSlider();
+		effect:'slideInLeft'
+
+    });
+
+	</script>
+	</body>
+
+	
+	<!--  end slider  --> 
 		
 		<div class="box" style="background-color: white; float:none; width:100%; display:table;">
 <div class="wawtext" style="display: table; min-height: 200px; overflow: hidden; float: left;">
