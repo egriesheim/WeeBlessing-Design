@@ -5,7 +5,7 @@
 .contactfont { font-size: 2em;}
 .sendblessingfont {font-size: 1.8em; font-weight: 600; text-align: center;}
 .belessingimage {float:left;}
-.floatleft {float:left;}
+.floatleft {float:left;}	
 .floatright {float:right}
 
 /* Table imagegrid */
@@ -387,7 +387,6 @@ div.c img {
 .wawtext {width:65%}
 	.wawangel {width:30%}
 
-
 			html, #page { padding:0; margin:0;}
 			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
 			h1, h3, h4, h5, h6 {color:#4CB4BD;}
@@ -587,7 +586,7 @@ width:80%
   border: 0;
   background: none;
   outline: 0;
-  margin: 200px 5% 5% 48%;
+  margin: 247px 5% 5% 48%;
   cursor: pointer;
   border-bottom: 4px solid currentColor;
   width:30px;
@@ -680,7 +679,7 @@ width:80%
 
 	.topstylebutton { padding: 15% 5% 5% 22%;}
 	.styleprofilebutton { padding: 0% 0% 0% 0%;}
-	.header-inner { height:230px}
+	.header-inner { height:300px}
 	.weelogomobile { position: absolute;
         top: 130px;
         left: 50%;
@@ -689,6 +688,21 @@ width:80%
 	.toppad {float:left; padding-top:10px; padding-left:33%; padding-right:auto;}
 	.parallax div.a {font-size: 700%}
 }
+
+@media (max-width: 680px){
+	
+.contactwrapper { width: 90%; margin: 0 auto;}
+	
+.contactbox { display:inline-block;}
+	.contactfont { font-size: 1.4em; text-align: center;}
+	.about {padding: 0% 15%;}
+	.packagegirl2 {display:none;
+}
+	.referral {width:100%;} 
+	h2.h2header{line-height: 70px; font-size: 6em}
+	span.whoarewetitle {font-size: 5em; padding-right:5%; padding-left:auto; letter-spacing: 10px;}
+}
+
 
 @media screen and (max-width: 450px) {
 	
@@ -708,7 +722,7 @@ width:80%
         left: 5%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
-	.wawtext {float:left; width:100%; height:25px;}
+	.wawtext {float:left; width:100%; height:20px;}
 	.wawangel {display:none;}
 	.parallax div.a {font-size: 5em;}
 	.homecontainer {width:100%;}
@@ -730,10 +744,10 @@ width:80%
 	.homebaby { max-height: 200px;}
 	
 	.box div.b { font-size: 1.7em;}
-	.fullwidth h2 {font-size:1em;}
+	.fullwidth h2 {font-size:5.5em;}
 	.packagegirl2 {display:none;}
 
-	.h2header { font-size:2.5em;}
+	.h2header { font-size:4.5em;}
 .laptopimg { height: auto; width:100px;
 }
 	.createstylebutton { width:200px;}
@@ -774,22 +788,9 @@ max-width:300px;
 	.number {width:90%}
 	.sendblessingfont {font-size: 1.3em !important; font-weight: 600; text-align: center;}
 .belessingimage {width:60%}
+	span.whoarewetitle {font-size: 4.5em; padding-right:14%; padding-left:auto; letter-spacing: 10px;}
+	.testimonialright{width:95%; float:right; padding: 5% 5% 0% 0%}
 }
-
-@media (max-width: 680px){
-	
-.contactwrapper { width: 90%; margin: 0 auto;}
-	
-.contactbox { display:inline-block;}
-	.contactfont { font-size: 1.4em; text-align: center;}
-	.about {padding: 0% 15%;}
-	.packagegirl2 {display:none;
-}
-	.referral {width:100%;} 
-	h2.h2header{line-height: 70px; font-size: 6em}
-	span.whoarewetitle {font-size: 5em; padding-right:15%; padding-left:auto; letter-spacing: 10px;}
-}
-
 
 .c2 {text-align: center;
 }
@@ -797,9 +798,4 @@ max-width:300px;
 }
 .testimonialsp { font-size: 1.5em
 }
-.lefttext {
-}
-.floatleft {
-}
-.floatright {
-}
+
