@@ -58,8 +58,7 @@
 			  </div>
 			</header>
    <!--  start slider code --> 
-	<title>Nivo jQuery Slider</title>
-
+	
     <!--  Load the stylesheets  -->
 
     <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
@@ -68,12 +67,9 @@
 
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
-
 <body>
 
     <div id="wrapper">
-
-    
 
         <!-- The slider wrapper div  -->
 
@@ -124,21 +120,19 @@
 
     //<!--  Load the slider  --> 
 
-    $(window).load(function() {
-		
-        $('#slider').nivoSlider();
-    });
+    $('#slider').nivoSlider({
+		pauseOnHover:false,
+		});
 
 	</script>
 	</body>
 
-	
 	<!--  end slider  --> 
 		
 		<div class="box" style="background-color: white; float:none; width:100%; display:table;">
 <div class="wawtext" style="display: table; min-height: 200px; overflow: hidden; float: left;">
        <div style="display: table-cell; vertical-align: middle; width: 100%">
-           <div class="funfont" style="text-align: right;">
+           <div class="funfont wawtext">
 			   <span class="whoarewetitle">WHO ARE WE</span>
            </div>
     </div>

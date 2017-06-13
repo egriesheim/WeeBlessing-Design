@@ -1,5 +1,36 @@
 /* CSS Document */
 
+/*slider overlay button*/
+    .nivo-controlNav{
+        display:none;
+    }
+    .nivo-prevNav{
+        display:none;
+    }
+    .nivo-nextNav{
+        display:none;
+    }
+
+    .overlay_wrap {
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+        text-align: center;
+        width: 100%;
+    }
+
+    .slider_overlay {
+        width: 50%;
+        z-index: 10;
+        margin: 0 auto;
+        position: static;
+        display: inline !important;
+        margin-bottom: 15%;
+        background-color: rgba(76, 180, 189, 0.65);
+        border-radius: 50%;
+    }
+
+.hometable {display: table-cell; vertical-align: middle; width: 100%;}
 .contactwrapper { width: 70%; margin: 0 auto;}
 .contactbox { display:inline-flex;}
 .contactfont { font-size: 2em;}
@@ -158,10 +189,10 @@ img {
 .whoarewetitle {
 	font-family: 'Amatic SC', cursive;
 	color: #4CB4BD;
-	text-align: center;
 	margin: auto 5px;
 	width:50%;
-	font-size: 10em; font-weight: 700; letter-spacing: 13px;
+	font-size: 9em; font-weight: 700; letter-spacing: 13px;
+	text-align: right;
 }
 
 .testimonialtitle {
@@ -384,8 +415,8 @@ div.c img {
 
 .toppad{float:right; padding-top:3%; padding-right:0%}
 
-.wawtext {width:65%}
-	.wawangel {width:30%}
+.wawtext {width:65%; float:right; text-align: right;}
+	.wawangel {min-width:24%; max-width:35%;}
 
 			html, #page { padding:0; margin:0;}
 			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
@@ -468,6 +499,7 @@ div.c img {
 .whoweare img { width:55%; height:auto;
 }
 
+	.wawtext { font-size: 1em;}
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;font-size:1.1em;}
 
 
@@ -491,7 +523,7 @@ width:80%
 
 @media screen and (max-width: 1100px) {
 	
-
+	.faqheader {font-size: 2em;}
 
 	.header-inner { margin:0 auto; padding:0; width:95%;}
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.1em;}
@@ -500,7 +532,7 @@ width:80%
 	}
 	.toplogo { padding:0;}
 	
-		.whoarewetitle {font-size:9em;}
+		.whoarewetitle {font-size:8.5em; width: 90%;}
 }
 
 @media screen and (max-width: 1020px) {
@@ -511,12 +543,12 @@ width:80%
 	width:95%;
 	}
 	
-	.whoarewetitle {font-size:8.5em;}
+	.whoarewetitle {font-size:7.5em;}
 
 }
 
 @media screen and (max-width: 900px) {
-	
+	.wawtext {width:70%; float:right; font-size: .9em}
 	
 	.faqcontent {padding-left:5%;padding-right:5%;}
 
@@ -542,6 +574,12 @@ width:80%
 
 
 @media screen and (max-width: 800px) {
+	
+	p.about { font-size: 1.3em;}
+	
+	h2.green{font-size:1.5em;}
+	
+	.faqanswer { font-size: 1.5em;}
 
 	.sendblessingfont {font-size: 1.8em !important; font-weight: 600; text-align: center;}
 	
@@ -573,7 +611,7 @@ width:80%
 	.whoarewetitle {font-size:6.0em;}
 	
 	.sansfont { font-size:1em;}
-	.wawtext {width:73%}
+	.wawtext {width:75%; font-size: 1em;}
 	.wawangel {width:20%}
 	.wawangel img{height:100px; width:auto;}
 	
@@ -691,6 +729,8 @@ width:80%
 
 @media (max-width: 680px){
 	
+	.faqheader {font-size: 2.1em;}
+	
 .contactwrapper { width: 90%; margin: 0 auto;}
 	
 .contactbox { display:inline-block;}
@@ -706,12 +746,13 @@ width:80%
 
 @media screen and (max-width: 450px) {
 	
+	.faqheader {font-size: 1.9em; line-height: 50px;}
 	.footer {padding-top:100%}
 
 	.about img{width:100%; height:auto;}
 	.social {display:none;}
 	.headercontent {width:100%;}
-	.toppad {float:left; padding-top:10px; padding-left:17%; padding-right:auto;}
+	.toppad {float:left; padding-top:10px; padding-left:17%; padding-right:auto; text-align: center;}
 	.weelogomobile { position: absolute;
         top: 130px;
         left: 50%;
@@ -719,10 +760,10 @@ width:80%
         transform: translate(-50%, -50%) }
 	.burger { position: absolute;
         top: 10px;
-        left: 5%;
+        left: 3%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
-	.wawtext {float:left; width:100%; height:20px;}
+	.wawtext {float:right; width:100%; height:20px;}
 	.wawangel {display:none;}
 	.parallax div.a {font-size: 5em;}
 	.homecontainer {width:100%;}
@@ -788,7 +829,8 @@ max-width:300px;
 	.number {width:90%}
 	.sendblessingfont {font-size: 1.3em !important; font-weight: 600; text-align: center;}
 .belessingimage {width:60%}
-	span.whoarewetitle {font-size: 4.5em; padding-right:14%; padding-left:auto; letter-spacing: 10px;}
+	span.whoarewetitle {font-size: 4.5em; padding-right:0%; padding-left:auto; letter-spacing: 10px; text-align: center;}
+	div.wawtext {text-align: center;}
 	.testimonialright{width:95%; float:right; padding: 5% 5% 0% 0%}
 }
 
