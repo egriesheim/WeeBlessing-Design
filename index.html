@@ -59,8 +59,6 @@
    <!--  start slider code --> 
 	<title>Nivo jQuery Slider</title>
 
-    
-
     <!--  Load the stylesheets  -->
 
     <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
@@ -126,10 +124,8 @@
     //<!--  Load the slider  --> 
 
     $(window).load(function() {
-
+		
         $('#slider').nivoSlider();
-		effect:'slideInLeft'
-
     });
 
 	</script>
@@ -305,5 +301,20 @@ Enjoy an additional 10% off!</p>
 			</div>
 			</footer>
 		</div>
+		
+		<script type="text/javascript">
+var currHeight;
+function HiddenResize1 () {
+    $('.nivoSlider').css({overflow:'visible',background:'none'});
+    setTimeout (function(){
+        $('.nivo-main-image').stop().animate({opacity:0},500);
+        currHeight=$('.nivoSlider').data('nivo:vars').currentImage.height();
+    },10);
+}
+function HiddenResize2 () {
+    $('.nivo-main-image').css({opacity:1,height:currHeight});
+}
+</script>
+	
 		</body>
 </html>
