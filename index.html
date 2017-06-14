@@ -25,14 +25,16 @@
 	</head>
 	<body>
 		<div id="page">
-			<header id="header">
+					<header id="header">
+					
 			  <div class="header-inner">
 				
 				<input class="burger-check" id="burger-check" type="checkbox">
 				<label for="burger-check" class="burger"></label>
 				
-				<div class="weelogomobile"><span class="mobilelogo"><a href="index.html"><img src="images/logo.png" width="275" height="103" alt=""/></a></span></div>
+				
 				<div class="headercontent">
+			   <div class="weelogomobile"><span class="mobilelogo"><a href="index.html"><img src="images/logo.png" width="275" height="103" alt=""/></a></span></div>
 				  <div>
 				  <div class="styleprofilebutton">
 					<a href="#"><img src="images/af037f3cc11741d1ada5c7f70d1074bf.png" alt="" class="toppad social" /></a><a href="#"><img src="images/d7ffe259c9e54f59837481b3dd0130eb.png" alt="" class="toppad social" /></a><a href="#"><img src="images/d3470ec8ca26475da4b228f0199b5d3d.png" alt="" class="toppad social" /></a><a href="#"><img src="images/styleprofile.png" alt="" class="toppad topstylebutton" /></a>
@@ -42,6 +44,7 @@
 						<a href="index.html"><img src="images/logo.png" alt="" width="250" height="93"/></a>
 					</div>
 				</div>
+				
 <nav id="navigation1" class="navigation">
 					<div class="top-nav sansfont" style="height:20px;">
 						<ul>
@@ -71,11 +74,11 @@
 
     <div id="wrapper">
 
-        <!-- The slider wrapper div  -->
+      <!-- The slider wrapper div  -->
 
         <div class="slider-wrapper theme-default">
 
-            <div id="slider" class="nivoSlider">
+            <div id="slider" class="nivoSlider" style="height:700px">
 
                 <!--  Images to slide through.  -->
 
@@ -90,7 +93,7 @@
 
             </div>
 
-            
+      
 
             <!--  Captions to show for images  -->
 
@@ -119,11 +122,13 @@
     
 
     //<!--  Load the slider  --> 
-
+$(window).load(function() {
     $('#slider').nivoSlider({
+		
 		pauseOnHover:false,
-		});
 
+		});
+});
 	</script>
 	</body>
 
@@ -297,19 +302,5 @@ Enjoy an additional 10% off!</p>
 			</footer>
 		</div>
 		
-		<script type="text/javascript">
-var currHeight;
-function HiddenResize1 () {
-    $('.nivoSlider').css({overflow:'visible',background:'none'});
-    setTimeout (function(){
-        $('.nivo-main-image').stop().animate({opacity:0},500);
-        currHeight=$('.nivoSlider').data('nivo:vars').currentImage.height();
-    },10);
-}
-function HiddenResize2 () {
-    $('.nivo-main-image').css({opacity:1,height:currHeight});
-}
-</script>
-	
 		</body>
 </html>

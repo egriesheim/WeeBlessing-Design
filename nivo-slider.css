@@ -11,18 +11,18 @@
 
 .nivoSlider {
 	position:relative;
-	width:80%;
+	width:100%;
 	height:auto;
+	max-height:550px;
 	overflow: hidden;
-	margin-left: 10%;
-	margin-right:10%;
 }
 .nivoSlider img {
 	position:absolute;
-	top:0px;
-	left:0px;
+	left:0;
+	top:0;
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 }
 .nivo-main-image {
 	display: block !important;

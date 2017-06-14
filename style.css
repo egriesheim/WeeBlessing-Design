@@ -196,7 +196,7 @@ img {
 }
 
 .testimonialtitle {
-	font-size:700%;
+	font-size:7em;
 	float: left;
 	color:#4CB4BD;
 	height:70px;
@@ -413,7 +413,7 @@ div.c img {
 .girlcircle:hover {background-color:rgba(247, 171, 222, 1); transition: .5s ease;}
 .boycircle:hover {background-color:  #4CB4BD; transition: .5s ease;}
 
-.toppad{float:right; padding-top:3%; padding-right:0%}
+.toppad{float:right; padding-top:3%; padding-right:2%}
 
 .wawtext {width:65%; float:right; text-align: right;}
 	.wawangel {min-width:24%; max-width:35%;}
@@ -440,10 +440,10 @@ div.c img {
 			.feature-inner h1 {color:top-nav#4CB4BD;font-size:32px;}
 			
 			/* Menu */
-			.top-nav { margin:0 auto; padding:0px 15% 2% 0; height:10px; float:right; font-size:1.4em; font-weight: 300;}
+			.top-nav { margin:0 auto; padding:0px 15% 2% 0; height:10px; float:right; font-size:1.5em; font-weight: 300;}
 			.top-nav ul { list-style:none; padding:0; height:10px; float:right;}
 			.top-nav ul li { margin:0; padding:0 0px 0px 0px; float:left;}
-			.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;}
+			.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:grey; text-decoration:none;}
 			.top-nav ul li.active a, .top-nav ul li a:hover { color:#4CB4BD;}
 			
 			/* Content */
@@ -526,7 +526,7 @@ width:80%
 	.faqheader {font-size: 2em;}
 
 	.header-inner { margin:0 auto; padding:0; width:95%;}
-	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.1em;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 30px; color:#382E2F; text-decoration:none;font-size:1.1em;}
 	.homecontainer{
 
 	}
@@ -538,7 +538,7 @@ width:80%
 @media screen and (max-width: 1020px) {
 
 	.header-inner { margin:0 auto; padding:0; width:95%;}
-	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 40px; color:#382E2F; text-decoration:none;font-size:1.1em;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:#382E2F; text-decoration:none;font-size:1.1em;}
 	.homecontainer{
 	width:95%;
 	}
@@ -552,7 +552,7 @@ width:80%
 	
 	.faqcontent {padding-left:5%;padding-right:5%;}
 
-	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 25px; color:#382E2F; text-decoration:none;font-size:1.1em;}
+	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 15px; color:#382E2F; text-decoration:none;font-size:1em;}
 	.homecontainer{
 	}
 	
@@ -715,15 +715,20 @@ width:80%
 
 	/* end burgers :( */
 
-	.topstylebutton { padding: 15% 5% 5% 22%;}
-	.styleprofilebutton { padding: 0% 0% 0% 0%;}
-	.header-inner { height:300px}
-	.weelogomobile { position: absolute;
-        top: 130px;
+	.topstylebutton { position: absolute;
+        top: 160px;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
-	.toppad {float:left; padding-top:10px; padding-left:33%; padding-right:auto;}
+	.styleprofilebutton { padding: 0% 0% 0% 0%;}
+	.header-inner { height:300px}
+	.weelogomobile { position: absolute;
+        top: 60px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+	
+	.toppad {float:left; padding-top:0px; padding-left:0%; padding-right:auto;}
 	.parallax div.a {font-size: 700%}
 }
 
@@ -741,6 +746,11 @@ width:80%
 	.referral {width:100%;} 
 	h2.h2header{line-height: 70px; font-size: 6em}
 	span.whoarewetitle {font-size: 5em; padding-right:5%; padding-left:auto; letter-spacing: 10px;}
+	
+	.rotateimage { display:none;}
+	.fiftyt {width:100%; padding:0;}
+	.testimonialright {float:left;}
+	.testimonialsp{width:100%;}
 }
 
 
@@ -752,9 +762,9 @@ width:80%
 	.about img{width:100%; height:auto;}
 	.social {display:none;}
 	.headercontent {width:100%;}
-	.toppad {float:left; padding-top:10px; padding-left:17%; padding-right:auto; text-align: center;}
+	.toppad {float:left; padding-top:0px; padding-left:0%; padding-right:auto; text-align: center;}
 	.weelogomobile { position: absolute;
-        top: 130px;
+        top: 60px;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
@@ -797,8 +807,20 @@ width:80%
 
 	
 .testimonialsimage {
-max-width:300px;
+max-width:300px; padding:0;
 }
+	
+	.testimonials {
+		font-size: .9em;
+		width:85%; padding:1% 1% 1% 6%; margin:0}
+	.fiftyt{
+	width:100%;
+	float:left;
+	padding:0%;
+	line-height: 25px;
+	font-weight: 700;
+}
+	
 	.rotateimage {
 	-ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
