@@ -782,6 +782,7 @@ width:80%
 }
 
 @media screen and (max-width: 450px) {
+	div.b .sansfont{ font-size:.4em!important}
 	.sendablessingtitle {font-size: 2.5em;}
 	 .blessingimage {padding-left:0px}
 	.wawangel {display:none!important;}
