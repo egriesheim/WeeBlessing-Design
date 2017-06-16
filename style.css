@@ -1,4 +1,5 @@
 /* CSS Document */
+.whoweareimage{padding-left: 12%!important;width:530px; height:80%;}
  .blessingimage {padding-left:50px}
 .wawangeldiv {min-width:24%; max-width:35%;}
 .white {color:white;}
@@ -147,8 +148,8 @@ img {
 
 
 .testimonials {
-	width:80%;
-	margin-left: 10%;
+	width:50%;
+	margin-left: 23%;
 	margin-right: auto;
 	float: left;
 	
@@ -497,6 +498,11 @@ div.c img {
 
 @media screen and (max-width: 1200px) {
 
+	.testimonials {
+	width:80%;
+	margin-left: 10%;
+	margin-right: auto;
+		float: left;}
 	
 .whoweare img { width:55%; height:auto;
 }
@@ -525,6 +531,7 @@ width:80%
 
 @media screen and (max-width: 1100px) {
 	
+	.whoweareimage{padding-left: 0%!important; width:100%; height:80%;}
 	.faqheader {font-size: 2em;}
 
 	.header-inner { margin:0 auto; padding:0; width:95%;}
@@ -906,3 +913,5 @@ h2.h2header {line-height: 60px}
 	.box div.a, .box div.b, .box div.c  {width:25%;}
 }
 
+.whoweareimage {
+}
