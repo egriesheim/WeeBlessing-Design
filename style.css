@@ -1,4 +1,5 @@
 /* CSS Document */
+.sendablessingheader {font-size:3em;}
 .whoweareimage{padding-left: 12%!important;width:530px; height:80%;}
  .blessingimage {padding-left:50px}
 .wawangeldiv {min-width:24%; max-width:35%;}
@@ -561,11 +562,10 @@ width:80%
 	.wawtext {width:70%; font-size: .9em}
 	.getstarted {letter-spacing: 3px; font-size:5em;}
 	.getstartedbutton img{width:90%;}
-	.faqcontent {padding-left:5%;padding-right:5%;}
+	.faqcontent {padding-left:15%;padding-right:15%;}
 
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 15px; color:#382E2F; text-decoration:none;font-size:1em;}
-	.homecontainer{
-	}
+	
 	
 .header-inner {
     margin: 0;
@@ -580,6 +580,7 @@ width:80%
 	h1 {font-size:1.8em}
 	
 	.testimonialtitle {font-size: 6em;}
+
 	
 }
 
@@ -790,6 +791,7 @@ width:80%
 }
 
 @media screen and (max-width: 450px) {
+	.sendablessingheader {font-size: 5em;}
 	div.b .sansfont{ font-size:.4em!important}
 	.sendablessingtitle {font-size: 2.5em;}
 	 .blessingimage {padding-left:0px}
@@ -826,14 +828,11 @@ width:80%
 	.column {flex-flow: column;}
 	.box {flex-flow: column;
 	}
-	
-	
-
 	.homebackground {height:230px}
 	
 	.homebaby { max-width: 200px!important;}
-	
-	.box div.b { font-size: 1.7em;}
+	.box div.a, .box div.b, .box div.c  {width:25%;}
+	.box div.b { font-size: 1.9em;}
 	.fullwidth h2 {font-size:5.5em;}
 	.packagegirl2 {display:none;}
 
@@ -843,8 +842,8 @@ width:80%
 	.createstylebutton { width:200px;}
 	
 	.getstartedbutton {width:100%; float:left; max-width:100%; padding:0% 0% 0% 0%; text-align: center;}
-	.getstarted {float: left;font-size:4.5em; width:100%;line-height: 60px; text-align:center; max-width: 90%; padding-left:5%; padding-bottom:0}
- .getstartedbutton img {width:60%; padding-bottom: 10px}
+	.getstarted {float: left;font-size:4.5em; width:100%;line-height: 45px; text-align:center; max-width: 90%; padding-left:5%; padding-bottom:0}
+ .getstartedbutton img {width:60%; padding-bottom: 0px}
 	
 .testimonialsimage {
 max-width:300px; padding:0;
