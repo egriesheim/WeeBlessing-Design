@@ -823,6 +823,7 @@ width:80%
 	.box div.b {width:28%; height:60%}
 	.box div.c {width:28%; height:100%}
 	h1 {font-size:.8em;}
+	.faqheader h1 {font-size: 2.5em}
 	div.b .sansfont {font-size: .6em;}
 	
 	.column {flex-flow: column;}
