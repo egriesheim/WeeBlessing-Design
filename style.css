@@ -739,6 +739,8 @@ width:80%
 }
 
 @media (max-width: 680px){
+	.c2 {width:100%!important}
+	.b2{width: 100%!important}
 	 .blessingimage {padding-left:10px}
 	
 	.getstartedbullets {padding-top:5%;}
@@ -887,13 +889,18 @@ max-width:300px; padding:0;
 .sendablessingtitle {
 }
 }
-.c2 {text-align: center;
+.c2 {text-align: center; width:50%; float:left;
 }
-.b2 {text-align: center;
+h2.h2header {line-height: 60px}
+.b2 {text-align: center; width:50%; float:left;
 }
 	.testimonialsp { font-size: 1.5em}
 
+.homecontainer .referralcontainer {height:100px;}
 
 @media (max-width: 331px){
 	.getstarted {font-size: 3em; line-height: 50px}
+	div.b .sansfont{ font-size:.4em}
+	.box div.a, .box div.b, .box div.c  {width:25%;}
 }
+
