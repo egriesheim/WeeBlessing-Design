@@ -1,5 +1,7 @@
 /* CSS Document */
-
+.contactfont { font-size: 1.5em;}
+.contactwrapper { width:900px; margin: 0 auto;}
+.contactbox { display:inline-flex; width:100%; margin:0 auto;}
 .sendablessingcontainer{width:600px; margin:0 auto;}
 .blessing1par {position:absolute; top:340px; left:45%; transform: translate(-50%, -50%);width: 50%;}
 .sendablessingheader{position:absolute; top:250px; left:46%; transform: translate(-50%, -50%);width: 50%; font-size: 2em}
@@ -69,10 +71,6 @@
     }
 
 .hometable {display: table-cell; vertical-align: middle; width: 100%;}
-.contactwrapper { width: 70%; margin: 0 auto;}
-.contactbox { display:inline-flex;}
-.contactfont { font-size: 2em;}
-
 .belessingimage {float:left;}
 .floatleft {float:left;}	
 .floatright {float:right}
@@ -620,6 +618,9 @@ width:80%
 }
 
 @media screen and (max-width: 900px) {
+	.contactfont { font-size: 1.3em;}
+.contactwrapper { width:500px; margin: 0 auto;}
+.contactbox { display:inline-flex; width:100%; margin:0 auto;}
 	.wawtext {width:70%; font-size: .9em}
 	.getstarted {letter-spacing: 3px; font-size:5em;}
 	.getstartedbutton img{width:90%;}
@@ -842,7 +843,11 @@ width:80%
 }
 
 @media (max-width: 680px){
-
+	
+.contactfont { font-size: 1.5em;}
+.contactwrapper { width:430px; margin: 0 auto;}
+.contactbox { display:inline-block; width:100%; margin:0 auto;}
+	
 .sendablessingcontainer{width:400px; margin:0 auto;}
 .blessing1par {position:relative; transform: translate(0%, 0%);width: 100%; top:0%; left:0%;}
 .sendablessingheader{position:relative; top:0%; left:0%; transform: translate(0%, 0%);width: 100%; font-size: 2.3em}
@@ -864,11 +869,7 @@ width:80%
 	
 	.getstartedbullets {padding-top:5%;}
 	.faqheader {font-size: 2.1em;}
-	
-.contactwrapper { width: 90%; margin: 0 auto;}
-	
-.contactbox { display:inline-block;}
-	.contactfont { font-size: 1.4em; text-align: center;}
+
 	.about {padding: 0% 15%;}
 	.packagegirl2 {display:none;
 }
@@ -886,12 +887,14 @@ width:80%
 	.getstartedbutton {width:100%; float:left; max-width:100%; padding:0% 0% 0% 0%; text-align: center;}
 	.getstarted {float: left;font-size:4.5em; width:100%;line-height: 60px; text-align:center; max-width: 90%; padding-left:5%;}
 	.getstartedbutton img {width:45%;}
-
 }
 
 @media screen and (max-width: 450px) {
-	
-	.sendablessingcontainer{width:310px; margin:0 auto;}
+.contactfont { font-size: 1.3em; text-align: center;}
+.contactwrapper { width:310px; margin: 0 auto;}
+.contactbox { display:inline-block; width:100%; margin:0 auto;}
+.contactform {width:100%; float:left; clear: both;}
+.sendablessingcontainer{width:310px; margin:0 auto;}
 .blessing1par {position:relative; transform: translate(0%, 0%);width: 100%; top:0%; left:0%;}
 .sendablessingheader{position:relative; top:0%; left:0%; transform: translate(0%, 0%);width: 100%; font-size: 2.3em}
 .sendblessingfont {font-weight: 500; text-align: center;}
