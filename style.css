@@ -1,4 +1,25 @@
 /* CSS Document */
+
+/* Create Profile Section */
+.profilecontainer {width:900px; margin:0 auto; padding-top:50px}
+.profsec1 {width:20%;
+	-ms-transform: rotate(-11deg); /* IE 9 */
+    -webkit-transform: rotate(-11deg); /* Chrome, Safari, Opera */
+    transform: rotate(-11deg);
+	padding:0px 0px 0px 0px;
+float:left; text-align: center;}
+.profsec2{text-align: center; font-size: 1.4em; font-weight: 600; float:left; width:50%; padding: 1px 0px 1px 0px;}
+.profsec2 p {padding: 1px 30px 1px 30px}
+.profsec3 {width:20%;
+	-ms-transform: rotate(14deg); /* IE 9 */
+    -webkit-transform: rotate(14deg); /* Chrome, Safari, Opera */
+    transform: rotate(14deg);
+	padding:0px 0px 0px 0px; float:left; text-align: center;}
+.profsec3 img {position: absolute;
+	left:70px;
+    bottom: -420px;}
+/* Create Profile Section */
+
 .footerbox { width:100%; display:inline-flex;}
 .contactfont { font-size: 1.5em;}
 .contactwrapper { width:900px; margin: 0 auto;}
@@ -585,6 +606,29 @@ width:80%
 }
 
 @media screen and (max-width: 1020px) {
+	
+	/* Create Profile Section */
+	.profilecontainer {width:750px; margin:0 auto; padding-top:100px}
+.profsec1 {width:20%;
+	-ms-transform: rotate(-11deg); /* IE 9 */
+    -webkit-transform: rotate(-11deg); /* Chrome, Safari, Opera */
+    transform: rotate(-11deg);
+	padding:0px 0px 0px 0px;
+float:left; text-align: center;}
+.profsec2{text-align: center; font-size: 1.3em; font-weight: 600; float:left; width:50%; padding: 1px 0px 1px 0px;}
+.profsec2 p {padding: 1px 30px 1px 30px}
+.profsec3 {width:20%;
+	-ms-transform: rotate(14deg); /* IE 9 */
+    -webkit-transform: rotate(14deg); /* Chrome, Safari, Opera */
+    transform: rotate(14deg);
+	padding:0px 0px 0px 0px; float:left; text-align: center;}
+.profsec3 img {position: absolute;
+	left:80px;
+    bottom: -420px;
+	width:130%;}
+	.profsec1 img{width:120%;}
+	/* Create Profile Section */
+	
 .getstartedbutton img{width:70%;}
 	.header-inner { margin:0 auto; padding:0; width:95%;}
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:#382E2F; text-decoration:none;font-size:1.1em;}
@@ -646,6 +690,28 @@ width:80%
 }
 
 @media screen and (max-width: 800px) {
+	
+	/* Create Profile Section */
+	.profilecontainer {width:600px; margin:0 auto; padding-top:50px}
+.profsec1 {width:100%; text-align: center;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	padding:0px 0px 0px 0px;
+float:left;}
+.profsec2{text-align: center; font-size: 1.3em; font-weight: 600; float:left; width:100%; padding: 1px 0px 1px 0px;}
+.profsec2 p {padding: 1px 30px 1px 30px}
+.profsec3 {width:100%;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	padding:0px 0px 0px 0px; float:left; text-align: center;}
+.profsec3 img {position: relative;
+	left:0px;
+    bottom: 0px;
+	width:40%;}
+	.profsec1 img{width:30%;}
+	/* Create Profile Section */
 	
 .sendablessingcontainer{width:500px; margin:0 auto;}
 .blessing1par {position:relative; transform: translate(0%, 0%);width: 100%; top:0%; left:0%;}
@@ -844,6 +910,29 @@ width:80%
 }
 
 @media (max-width: 680px){
+	
+	/* Create Profile Section */
+		.profilecontainer {width:320px; margin:0 auto; padding-top:50px}
+.profsec1 {width:100%; text-align: center;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	padding:0px 0px 0px 0px;
+float:left;}
+.profsec2{text-align: center; font-size: 1.5em; font-weight: 600; float:left; width:100%; padding: 1px 0px 1px 0px;}
+.profsec2 p {padding: 1px 30px 1px 30px}
+.profsec3 {width:100%;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	padding:0px 0px 0px 0px; float:left; text-align: center;}
+.profsec3 img {position: relative;
+	left:0px;
+    bottom: 0px;
+	width:60%;}
+	.profsec1 img{width:50%;}
+	/* Create Profile Section */
+	
 .footerbox { width:100%; display:inline-block;}
 .contactfont { font-size: 1.5em;}
 .contactwrapper { width:430px; margin: 0 auto;}
