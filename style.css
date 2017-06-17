@@ -949,12 +949,12 @@ width:80%
 .belessingimage {width:60%}
 	span.whoarewetitle {font-size: 4.5em; padding-right:0%; padding-left:auto; letter-spacing: 10px; text-align: center;}
 	div.wawtext {text-align: center;}
-	.testimonialright{width:95%; float:right; padding: 5% 5% 0% 0%}
+	.testimonialright{width:43%; float:right; padding: 5% 5% 0% 0%}
 .wawtext { min-height:120px !important;
 }
 .sendablessingtitle {
 }
-}
+
 .c2 {text-align: center; width:50%; float:left;
 }
 h2.h2header {line-height: 60px}
