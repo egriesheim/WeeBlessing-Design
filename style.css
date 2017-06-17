@@ -1,6 +1,28 @@
 /* CSS Document */
+.par1{float:left;width:45%;line-height: 23px; font-weight: 700;}
+.par2{float:left;width:49%;line-height: 23px; font-weight: 700; height: 10%;}
+.par3{float:left;width:58%;line-height: 23px; font-weight: 700;}
+.par4{float:left;width:42%;line-height: 23px; font-weight: 700;}
+.par5{float:left;width:107%;line-height: 23px; font-weight: 700;}
+.par6{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par7{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par1 p {padding:9px 32px 0px 38px}
+.par2 p {padding:0px 0px 0px 20px}
+.par3 p {padding:1px 0px 0px 0px; margin:0}
+.par4 p {padding:30px 8px 0px 80px; margin:0;}
+.par5 p {padding:0px 0px 3px 0px}
+.par6 p {padding:0px 10px 0px 0px}
+.par7 p {padding:0px 140px 0px 250px}
+.par2 p{ width:100%}
+.denise {padding:0!important; margin:0!important }
+.textalignright {text-align: right;}
+.testimonials {width:960px;margin:0 auto;}
+.testimonialsimage {width: 100%; height:auto}
+.testimonialsp {color:#73726F; font-size: 1.5em}
+.sigangel {width:9%; height:auto;}
+.aboutcontent {width: 1250px; margin:0 auto}
 .sendablessingheader {font-size:3em;}
-.whoweareimage{padding-left: 12%!important;width:530px; height:80%;}
+.whoweareimage{width:461px; height:307; padding-left:6%!important}
  .blessingimage {padding-left:50px}
 .wawangeldiv {min-width:24%; max-width:35%;}
 .white {color:white;}
@@ -134,7 +156,7 @@ border-radius: 5px;
 
 .about {
 word-wrap: break-word;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	padding-left: 0%;
 	padding-right: 0%;
 	padding-top: 0%;
@@ -147,14 +169,6 @@ img {
 	padding: 0px;
 }
 
-
-.testimonials {
-	width:50%;
-	margin-left: 23%;
-	margin-right: auto;
-	float: left;
-	
-}
 
 .faqheader {
 	font-family: 'Amatic SC', cursive;
@@ -202,12 +216,12 @@ img {
 }
 
 .testimonialtitle {
-	font-size:7em;
+	font-size:8em;
 	float: left;
 	color:#4CB4BD;
 	height:70px;
-	padding-top:5%;
-	font-weight: 700;
+	padding-top:9%;
+	font-weight: 600;
 	letter-spacing: 9px;
 }
 .fullwidth {width:100%; text-align: center;}
@@ -224,7 +238,6 @@ img {
 }
 
 .whoarewe div.sansfont {
-	font-size: 1.2em;
 	font-weight: 500;
 	line-height: 35px;
 }
@@ -387,19 +400,21 @@ div.c img {
 	color:#97C65A;
 }
 
+
+
 .fiftyt{
-	width:45%;
 	float:left;
-	padding:2.5%;
-	line-height: 25px;
+	padding:1%;
+	line-height: 28px;
 	font-weight: 700;
 }
 
 .rotateimage {
-	width:40%;
-	-ms-transform: rotate(-22deg); /* IE 9 */
-    -webkit-transform: rotate(-22deg); /* Chrome, Safari, Opera */
-    transform: rotate(-22deg);
+	width:43%;
+	-ms-transform: rotate(-11deg); /* IE 9 */
+    -webkit-transform: rotate(-11deg); /* Chrome, Safari, Opera */
+    transform: rotate(-11deg);
+	padding:0px 50px 0px 0px;
 	
 }
 
@@ -497,16 +512,35 @@ div.c img {
 /*media queries*/
 
 
-@media screen and (max-width: 1200px) {
-
-	.testimonials {
-	width:80%;
-	margin-left: 10%;
-	margin-right: auto;
-		float: left;}
+@media screen and (max-width: 1270px) {
 	
-.whoweare img { width:55%; height:auto;
+.par1{float:left;width:50%;line-height: 23px; font-weight: 700;}
+.par2{float:left;width:48%;line-height: 23px; font-weight: 700; height: 10%;}
+.par3{float:left;width:58%;line-height: 23px; font-weight: 700;}
+.par4{float:left;width:42%;line-height: 23px; font-weight: 700;}
+.par5{float:left;width:107%;line-height: 23px; font-weight: 700;}
+.par6{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par7{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par1 p {padding:9px 32px 0px 38px}
+.par2 p {padding:0px 0px 0px 30px}
+.par3 p {padding:1px 0px 0px 0px; margin:0}
+.par4 p {padding:30px 8px 0px 55px; margin:0;}
+.par5 p {padding:0px 0px 3px 0px}
+.par6 p {padding:0px 4px 0px 0px}
+.par7 p {padding:0px 100px 0px 210px}
+.par2 p{ width:100%}
+.denise {padding:0!important; margin:0!important }
+.textalignright {text-align: right;}
+.testimonials {width:800px;margin:0 auto;}
+.testimonialsimage {width: 100%; height:auto}
+.testimonialsp {color:#73726F; font-size: 1.3em}
+	.testimonialtitle {font-size: 6.7em}
+	
+
+.aboutcontent {width: 1090px; margin:0 auto}
+.whoweareimage { width:55%; height:auto;
 }
+	.about {font-size:1.3em; font-weight: 700}
 
 	.wawtext { font-size: 1em; width:67%;}
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 20px; color:grey; text-decoration:none;font-size:1.1em;}
@@ -527,22 +561,17 @@ width:80%
 .packagegirl {max-width:300px; height:auto;
 }
 	
-		.sigangel {display: none;}
 }
 
 @media screen and (max-width: 1100px) {
-	
-	.whoweareimage{padding-left: 0%!important; width:100%; height:80%;}
+	.whoweareimage { width:60%; height:auto;}
+	.about{font-size:1.1em}
+	.aboutcontent {width: 870px; margin:0 auto}
 	.faqheader {font-size: 2em;}
-
 	.header-inner { margin:0 auto; padding:0; width:95%;}
 	.top-nav ul li a { display:block; margin:0; padding:0px 0px 0px 30px; color:#382E2F; text-decoration:none;font-size:1.1em;}
-	.homecontainer{
-
-	}
 	.toplogo { padding:0;}
 	.wawtext {width:68%;}
-		.whoarewetitle {font-size:8.5em; width: 90%;}
 	.getstarted {letter-spacing: 5px;}
 }
 
@@ -554,8 +583,30 @@ width:80%
 	width:95%;
 	}
 	.wawtext {width:69%;}
-	.whoarewetitle {font-size:7.5em;}
-
+	.whoarewetitle {font-size:6.5em;}
+	
+	.par1{float:left;width:50%;line-height: 23px; font-weight: 700;}
+.par2{float:left;width:48%;line-height: 23px; font-weight: 700; height: 10%;}
+.par3{float:left;width:58%;line-height: 23px; font-weight: 700;}
+.par4{float:left;width:42%;line-height: 23px; font-weight: 700;}
+.par5{float:left;width:107%;line-height: 23px; font-weight: 700;}
+.par6{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par7{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par1 p {padding:9px 32px 0px 38px}
+.par2 p {padding:0px 0px 0px 30px}
+.par3 p {padding:1px 0px 0px 0px; margin:0}
+.par4 p {padding:30px 8px 0px 55px; margin:0;}
+.par5 p {padding:0px 0px 3px 0px}
+.par6 p {padding:0px 4px 0px 0px}
+.par7 p {padding:0px 100px 0px 185px}
+.par2 p{ width:100%}
+.denise {padding:0!important; margin:0!important }
+.textalignright {text-align: right;}
+.testimonials {width:700px;margin:0 auto;}
+.testimonialsimage {width: 100%; height:auto}
+.testimonialsp {color:#73726F; font-size: 1.1em}
+	.testimonialtitle {font-size: 6.7em}
+	.rotateimage {width:42%}
 }
 
 @media screen and (max-width: 900px) {
@@ -580,14 +631,41 @@ width:80%
 	h1 {font-size:1.8em}
 	
 	.testimonialtitle {font-size: 6em;}
-
-	
 }
 
 
 @media screen and (max-width: 800px) {
+.par1{float:right;width:100%;line-height: 23px; font-weight: 700;}
+.par2{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par3{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par4{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par5{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par6{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par7{float:left;width:100%;line-height: 23px; font-weight: 700;}
+.par1 p {padding:60px 0px 0px 0px}
+.par2 p {padding:0px 0px 0px 0px}
+.par3 p {padding:0px 0px 0px 0px; margin:0}
+.par4 p {padding:0px 0px 0px 0px; margin:0;}
+.par5 p {padding:0px 0px 0px 0px}
+.par6 p {padding:0px 0px 0px 0px; width:100%}
+.par7 p {padding:0px 0px 0px 0px}
+.par2 p{ width:100%}
+.denise {padding:0!important; margin:0!important }
+.textalignright {text-align: right;}
+.testimonials {width:60%;margin:0 auto;}
+.testimonialsimage {width: 100%; height:auto;}
+.testimonialsp {color:#73726F; font-size: 1.4em}
+	.testimonialtitle {font-size: 4.6em; width:100%; line-height: 60px;}
+	.rotateimage {
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+		width:100%;
+	}
 	
-	p.about { font-size: 1.3em;}
+	.whoweareimage { width:100%; height:auto;}
+	.about{font-size:1.1em}
+	.aboutcontent {width: 680px; margin:0 auto}
 	
 	h2.green{font-size:1.5em;}
 	
@@ -611,7 +689,6 @@ width:80%
     margin: 0 auto;
     padding: 0;
 	}
-	.testimonialtitle {font-size: 6em; line-height: 70px; padding-bottom:50px;}
 	.headercontent {width:100%;}
 	.toppad {float:left; padding-top:200px; padding-left:28%; padding-right:auto;}
 
@@ -621,8 +698,6 @@ width:80%
 	h2 {font-size:1em}
 	
 	.whoarewetitle {font-size:6.0em;}
-	
-	.sansfont { font-size:1em;}
 	.wawtext {width:70%; font-size: 1em;}
 	.wawangel {width:20%}
 	.wawangel img{height:auto; width:35%;}
@@ -748,6 +823,11 @@ width:80%
 }
 
 @media (max-width: 680px){
+	.whoweareimage { width:100%; height:auto;}
+	.about{font-size:1.1em}
+	.aboutcontent {width: 430px; margin:0 auto}
+	.sigangel {width:10%; position:relative; }
+	.signature {width:70%; height:auto}
 	.c2 {width:100%!important}
 	.b2{width: 100%!important}
 	 .blessingimage {padding-left:10px}
@@ -764,18 +844,10 @@ width:80%
 }
 	.referral {width:100%;} 
 	h2.h2header{line-height: 70px; font-size: 6em}
-	span.whoarewetitle {font-size: 8em; padding-left:auto; letter-spacing: 10px;}
-	
-	.rotateimage { display:none;}
 	.fiftyt {width:100%; padding:0;}
-	.testimonialright {float:left;}
-	.testimonialsp{width:100%;}
-	
-.wawangel {display:none!important;}
+	.wawangel {display:none!important;}
 	.wawangeldiv {display:none!important;}
 	.wawtext {width:100%; text-align: center; height:100px!important;}
-
-	
 	.box div.a, div.b, div.c {width: 26%;} 
 	.number {width:100%}
 	.box div.b {font-size: 1.5em;}
@@ -785,22 +857,21 @@ width:80%
 	.getstarted {float: left;font-size:4.5em; width:100%;line-height: 60px; text-align:center; max-width: 90%; padding-left:5%;}
 	.getstartedbutton img {width:45%;}
 
-	
-
-
 }
 
 @media screen and (max-width: 450px) {
+	.whoweareimage { width:100%; height:auto;}
+	.about{font-size:0.9em; line-height:16px;}
+	.aboutcontent {width: 320px; margin:0 auto}
+	.sigangel {width:10%; position:relative; }
+	.signature {width:70%; height:auto}
 	.sendablessingheader {font-size: 5em;}
-	div.b .sansfont{ font-size:.4em!important}
 	.sendablessingtitle {font-size: 2.5em;}
 	 .blessingimage {padding-left:0px}
 	.wawangel {display:none!important;}
 	.wawangeldiv {display:none!important;}
 	.faqheader {font-size: 1.9em; line-height: 50px;}
 	.footer {padding-top:100%}
-	.whoarewe {padding:20px!important}
-	.about img{width:100%; height:auto;}
 	.social {display:none;}
 	.headercontent {width:100%;}
 	.toppad {float:left; padding-top:0px; padding-left:0%; padding-right:auto; text-align: center;}
@@ -846,25 +917,11 @@ width:80%
 	.getstarted {float: left;font-size:4.5em; width:100%;line-height: 45px; text-align:center; max-width: 90%; padding-left:5%; padding-bottom:0}
  .getstartedbutton img {width:60%; padding-bottom: 0px}
 	
-.testimonialsimage {
-max-width:300px; padding:0;
-}
-	.testimonials {
+.testimonials {
 		font-size: .9em;
-		width:85%; padding:1% 1% 1% 6%; margin:0}
-	.fiftyt{
-	width:100%;
-	float:left;
-	padding:0%;
-	line-height: 25px;
-	font-weight: 700;
-}
-	
-	.rotateimage {
-	-ms-transform: rotate(0deg); /* IE 9 */
-    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-		width:100%;
+		width:90%;}
+	.rotateimage{padding:0;margin:0; width:100%;}
+	.jumpingkids {padding:0}
 }
 	
 	.footerb { width:100%; text-align: center;
@@ -903,15 +960,24 @@ max-width:300px; padding:0;
 h2.h2header {line-height: 60px}
 .b2 {text-align: center; width:50%; float:left;
 }
-	.testimonialsp { font-size: 1.5em}
 
 .homecontainer .referralcontainer {height:100px;}
 
 @media (max-width: 331px){
+	.whoweareimage { width:100%; height:auto;}
+	.about{font-size:1.0em;line-height: 15px;}
+	.aboutcontent {width: 300px; margin:0 auto}
+	.sigangel {width:20%; position:relative; }
+	.signature {width:60%; height:auto}
+	
 	.getstarted {font-size: 3em; line-height: 50px}
 	div.b .sansfont{ font-size:.4em}
 	.box div.a, .box div.b, .box div.c  {width:25%;}
 }
 
 .whoweareimage {
+}
+.signature {
+}
+.denise {
 }
