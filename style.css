@@ -1,6 +1,8 @@
 /* CSS Document */
 
 /* Create Profile Section */
+
+.faqanswer {font-size:1.3em}
 .profilecontainer {width:900px; margin:0 auto; padding-top:50px}
 .profsec1 {width:20%;
 	-ms-transform: rotate(-11deg); /* IE 9 */
@@ -758,7 +760,7 @@ float:left;}
 	
 	h2.green{font-size:1.5em;}
 	
-	.faqanswer { font-size: 1.5em;}
+	.faqanswer { font-size: 1.3em;}
 	
 	div.divTableCell img {width:90%}
 	
